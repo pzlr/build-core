@@ -1,2 +1,2 @@
-# block-declaration-parser
-Parse block declaration string 
+# Build Core
+Core tools for pzlr

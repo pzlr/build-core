@@ -794,6 +794,16 @@ strip-json-comments@~1.0.1:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-1.0.4.tgz#1e15fbcac97d3ee99bf2d73b4c656b082bbafb91"
 
+sugar:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/sugar/-/sugar-2.0.1.tgz#cd19c51159a104bc1c9292401e16b7a123b88118"
+  dependencies:
+    sugar-core "^2.0.0"
+
+sugar-core@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/sugar-core/-/sugar-core-2.0.0.tgz#f6fdf24bfb2fa77a412f29053566c4194acf86e8"
+
 supports-color@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-2.0.0.tgz#535d045ce6b6363fa40117084629995e9df324c7"
