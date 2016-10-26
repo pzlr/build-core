@@ -1,0 +1,16 @@
+{
+  "name": "@pzlr/block-declaration-parser",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": {
+    "url": "git@github.com:pzlr/block-declaration-parser.git",
+    "type": "git"
+  },
+  "author": "Konstantin Kutsyllo <trikadin@mail.ru>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^7.0.0",
+    "eslint": "^3.8.1",
+    "eslint-plugin-flowtype": "^2.25.0"
+  }
+}
