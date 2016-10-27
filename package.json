@@ -1,6 +1,6 @@
 {
   "name": "@pzlr/build-core",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "main": "index.js",
   "repository": {
     "url": "git@github.com:pzlr/build-core.git",
