@@ -1,7 +1,7 @@
 {
   "name": "@pzlr/build-core",
   "main": "index.js",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "license": "MIT",
   "author": "Konstantin Kutsyllo <trikadin@mail.ru>",
   "repository": {
