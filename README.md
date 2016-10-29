@@ -1,7 +1,7 @@
 Build Core
 ==========
 
-Core tools for pzlr
+Core tools for pzlr.
 
 ## .pzlrrc
 
