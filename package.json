@@ -1,21 +1,20 @@
 {
   "name": "@pzlr/build-core",
-  "version": "0.2.2",
   "main": "index.js",
+  "version": "0.2.2",
+  "license": "MIT",
+  "author": "Konstantin Kutsyllo <trikadin@mail.ru>",
   "repository": {
     "url": "git@github.com:pzlr/build-core.git",
     "type": "git"
-  },
-  "author": "Konstantin Kutsyllo <trikadin@mail.ru>",
-  "license": "MIT",
-  "devDependencies": {
-    "babel-eslint": "^7.0.0",
-    "eslint": "^3.8.1",
-    "eslint-plugin-flowtype": "^2.25.0"
   },
   "dependencies": {
     "fs-extra": "^0.30.0",
     "joi": "^9.2.0",
     "sugar": "^2.0.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.0.0",
+    "eslint": "^3.8.1"
   }
 }
