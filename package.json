@@ -1,13 +1,25 @@
 {
   "name": "@pzlr/build-core",
+  "description": "Core tools for pzlr",
+  "homepage": "https://github.com/pzlr/build-core#readme",
   "main": "index.js",
   "version": "0.2.3",
   "license": "MIT",
-  "author": "Konstantin Kutsyllo <trikadin@mail.ru>",
+  "author": {
+    "name": "Konstantin Kutsyllo",
+    "email": "trikadin@mail.ru",
+    "url": "https://github.com/trikadin"
+  },
   "repository": {
     "url": "git@github.com:pzlr/build-core.git",
     "type": "git"
   },
+  "bugs": {
+    "url": "https://github.com/pzlr/build-core/issues"
+  },
+  "keywords": [
+    "pzlr"
+  ],
   "dependencies": {
     "fs-extra": "^0.30.0",
     "joi": "^9.2.0",
