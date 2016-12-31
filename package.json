@@ -3,7 +3,7 @@
   "description": "Core tools for pzlr",
   "homepage": "https://github.com/pzlr/build-core#readme",
   "main": "index.js",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "license": "MIT",
   "author": {
     "name": "Konstantin Kutsyllo",
