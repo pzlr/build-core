@@ -21,6 +21,7 @@
     "pzlr"
   ],
   "dependencies": {
+    "collection.js": "^6.0.0-beta.19",
     "fs-extra": "^0.30.0",
     "joi": "^9.2.0",
     "sugar": "^2.0.1"
