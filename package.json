@@ -3,7 +3,7 @@
   "description": "Core tools for pzlr",
   "homepage": "https://github.com/pzlr/build-core#readme",
   "main": "index.js",
-  "version": "0.4.1",
+  "version": "1.0.0",
   "license": "MIT",
   "author": {
     "name": "Konstantin Kutsyllo",
@@ -21,6 +21,7 @@
     "pzlr"
   ],
   "dependencies": {
+    "collection.js": "^6.0.0-beta.19",
     "fs-extra": "^0.30.0",
     "joi": "^9.2.0",
     "sugar": "^2.0.1"
