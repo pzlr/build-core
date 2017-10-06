@@ -1,13 +1,8 @@
 {
   "root": true,
+  "parser": "babel-eslint",
   "parserOptions": {
     "sourceType": "module"
-  },
-
-  "settings": {
-    "flowtype": {
-      "onlyFilesWithFlowAnnotation": false
-    }
   },
 
   "rules": {
