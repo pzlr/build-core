@@ -79,6 +79,10 @@ declare namespace PzlrBuildCore {
 export const config: {
 	readonly sourceDir: string;
 
+	readonly blockDir: string;
+
+	readonly entriesDir: string;
+
 	readonly projectType: 'ts' | 'js' | 'static';
 
 	readonly disclaimer: string | null;
