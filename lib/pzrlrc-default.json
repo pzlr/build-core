@@ -1,5 +1,7 @@
 {
-  "sourceDir": "./client",
   "projectType": "ts",
+  "sourceDir": "client",
+  "blockDir": "blocks",
+  "entriesDir": "entries",
   "disclaimer": null
 }
