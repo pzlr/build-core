@@ -3,5 +3,6 @@
   "sourceDir": "client",
   "blockDir": "blocks",
   "entriesDir": "entries",
+  "dependencies": [],
   "disclaimer": null
 }
