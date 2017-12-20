@@ -22,15 +22,16 @@
     "pzlr"
   ],
   "dependencies": {
-    "collection.js": "^6.3.12",
+    "collection.js": "^6.3.15",
     "fs-extra-promise": "^1.0.1",
+    "glob-promise": "^3.3.0",
     "joi": "^13.0.2",
     "sugar": "^2.0.1"
   },
   "devDependencies": {
-    "@types/fs-extra-promise": "^1.0.3",
-    "@types/joi": "^13.0.0",
-    "babel-eslint": "^8.0.2",
-    "eslint": "^4.11.0"
+    "@types/fs-extra-promise": "^1.0.4",
+    "@types/joi": "^13.0.3",
+    "babel-eslint": "^8.0.3",
+    "eslint": "^4.13.1"
   }
 }
