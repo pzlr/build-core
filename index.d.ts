@@ -109,7 +109,8 @@ export const declaration: PzlrBuildCore.Declaration;
 export const resolve: {
 	readonly sourceDir: string;
 
-	block(name?: string, parent?: string): Promise<string>;
+	block(name?: string): Promise<string | null>;
+	block(name: string, skip: number): Promise<{path: string, from: number} | null>;
 
 	entry(name?: string): string;
 };
