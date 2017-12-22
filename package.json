@@ -4,12 +4,15 @@
   "homepage": "https://github.com/pzlr/build-core#readme",
   "main": "index.js",
   "typings": "index.d.ts",
-  "version": "1.7.0",
+  "version": "2.0.0",
   "license": "MIT",
   "author": {
     "name": "Konstantin Kutsyllo",
     "email": "trikadin@mail.ru",
     "url": "https://github.com/trikadin"
+  },
+  "engines": {
+    "node": ">=8.9.0"
   },
   "repository": {
     "url": "git@github.com:pzlr/build-core.git",
