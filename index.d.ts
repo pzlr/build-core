@@ -72,7 +72,7 @@ declare namespace PzlrBuildCore {
 
 		getDependencies(onlyOwn?: boolean): Promise<Block[]>;
 
-		getLibs(onlyOwn?: boolean): Promise<string[]>
+		getLibs(onlyOwn?: boolean): Promise<string[]>;
 	}
 }
 
@@ -110,6 +110,7 @@ export const resolve: {
 	readonly sourceDir: string;
 
 	block(name?: string): Promise<string | null>;
+
 	block(name: string, skip: number): Promise<{path: string, from: number} | null>;
 
 	entry(name?: string): string;
