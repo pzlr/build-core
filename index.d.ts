@@ -118,22 +118,28 @@ export const resolve: {
 
 export const block: PzlrBuildCore.Block;
 
+interface Entry {
+	path: string;
+	source: string;
+	parent: string | null;
+}
+
+interface BuildConfig {
+	entries: {
+		[name: string]: Entry;
+	};
+
+	filter(cb: (el: Entry, key: string) => any): BuildConfig;
+
+	dependencies: {
+		[name: string]: string[];
+	};
+
+	commons: {
+		[name: string]: string[];
+	};
+}
+
 export const entries: {
-	getBuildConfig(): {
-		entries: {
-			[name: string]: {
-				path: string;
-				source: string;
-				parent: string | null;
-			}
-		};
-
-		dependencies: {
-			[name: string]: string[];
-		};
-
-		commons: {
-			[name: string]: string[];
-		};
-	}
+	getBuildConfig(): BuildConfig;
 };
