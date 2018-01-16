@@ -30,14 +30,14 @@
     "glob": "^7.1.2",
     "glob-promise": "^3.3.0",
     "is-path-inside": "^1.0.1",
-    "joi": "^13.0.2",
+    "joi": "^13.1.0",
     "sugar": "^2.0.1"
   },
   "devDependencies": {
     "@types/fs-extra-promise": "^1.0.4",
     "@types/glob": "^5.0.34",
-    "@types/joi": "^13.0.3",
-    "babel-eslint": "^8.1.2",
-    "eslint": "^4.14.0"
+    "@types/joi": "^13.0.5",
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.15.0"
   }
 }
