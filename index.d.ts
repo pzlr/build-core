@@ -80,7 +80,7 @@ declare namespace PzlrBuildCore {
 		getLibs({onlyOwn, cache}: {onlyOwn?: boolean; cache?: BlockMap}): Promise<Set<string>>;
 
 		getRuntimeDependencies(): Promise<{runtime: BlockMap, parents: BlockMap, libs: Set<string>}>;
-		getRuntimeDependencies({cache}: {cache?: BlockMap}): Promise<{runtime: BlockMap, parents: BlockMap, libs: Set<string>}>;
+		getRuntimeDependencies({cache}: {cache?: BlockMap}): Promise<{runtime: BlockMap; parents: BlockMap; libs: Set<string>}>;
 	}
 }
 
@@ -94,6 +94,8 @@ export const config: {
 	readonly projectType: 'ts' | 'js' | 'static';
 
 	readonly disclaimer: string | null;
+
+	readonly dependencies: string[] | {src: string; exclude: string[]};
 };
 
 export const validators: {
@@ -115,11 +117,21 @@ export const validators: {
 export const declaration: PzlrBuildCore.Declaration;
 
 export const resolve: {
+	readonly depMap: Record<string, {src: string; exclude: Set<string>; config: typeof config}>;
+
 	readonly sourceDir: string;
+
+	readonly sourceDirs: string[];
+
+	readonly entries: string[];
+
+	readonly dependencies: string[];
+
+	readonly rootDependencies: string[];
 
 	block(name?: string): Promise<string | null>;
 
-	block(name: string, skip: number): Promise<{path: string, from: number} | null>;
+	block(name: string, skip: number): Promise<{path: string; from: number} | null>;
 
 	entry(name?: string): string;
 };
