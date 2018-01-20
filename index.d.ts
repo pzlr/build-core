@@ -130,7 +130,6 @@ export const resolve: {
 	readonly rootDependencies: string[];
 
 	block(name?: string): Promise<string | null>;
-
 	block(name: string, skip: number): Promise<{path: string; from: number} | null>;
 
 	entry(name?: string): string;
