@@ -49,10 +49,12 @@ declare namespace PzlrBuildCore {
 		toString(): string;
 	}
 
+	type BlockMap = Map<string, Block>;
+
 	class Block {
 		static get(name: string): Promise<Block>;
 
-		static getAll(names?: string[]): Promise<Map<string, Block>>;
+		static getAll(names?: string[]): Promise<BlockMap>;
 
 		readonly name: string;
 
@@ -69,10 +71,16 @@ declare namespace PzlrBuildCore {
 		constructor(declaration: Declaration);
 
 		getParent(): Promise<Block | null>;
+		getParent({cache}: {cache?: BlockMap}): Promise<Block | null>;
 
-		getDependencies(onlyOwn?: boolean): Promise<Map<string, Block>>;
+		getDependencies(): Promise<BlockMap>;
+		getDependencies({onlyOwn, cache}: {onlyOwn?: boolean; cache?: BlockMap}): Promise<BlockMap>;
 
-		getLibs(onlyOwn?: boolean): Promise<Set<string>>;
+		getLibs(): Promise<Set<string>>;
+		getLibs({onlyOwn, cache}: {onlyOwn?: boolean; cache?: BlockMap}): Promise<Set<string>>;
+
+		getRuntimeDependencies(): Promise<{runtime: BlockMap, parents: BlockMap, libs: Set<string>}>;
+		getRuntimeDependencies({cache}: {cache?: BlockMap}): Promise<{runtime: BlockMap, parents: BlockMap, libs: Set<string>}>;
 	}
 }
 
