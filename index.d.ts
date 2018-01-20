@@ -141,5 +141,5 @@ interface BuildConfig {
 }
 
 export const entries: {
-	getBuildConfig(): BuildConfig;
+	getBuildConfig(): Promise<BuildConfig>;
 };
