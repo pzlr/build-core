@@ -117,17 +117,21 @@ export const validators: {
 export const declaration: PzlrBuildCore.Declaration;
 
 export const resolve: {
+	readonly cwd: string;
+
+	readonly lib: string;
+
 	readonly depMap: Record<string, {src: string; exclude: Set<string>; config: typeof config}>;
 
 	readonly sourceDir: string;
 
 	readonly sourceDirs: string[];
 
-	readonly entries: string[];
-
 	readonly dependencies: string[];
 
 	readonly rootDependencies: string[];
+
+	readonly entryDependencies: string[];
 
 	block(name?: string): Promise<string | null>;
 	block(name: string, skip: number): Promise<{path: string; from: number} | null>;
