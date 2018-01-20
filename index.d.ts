@@ -70,9 +70,9 @@ declare namespace PzlrBuildCore {
 
 		getParent(): Promise<Block | null>;
 
-		getDependencies(onlyOwn?: boolean): Promise<Block[]>;
+		getDependencies(onlyOwn?: boolean): Promise<Map<string, Block>>;
 
-		getLibs(onlyOwn?: boolean): Promise<string[]>;
+		getLibs(onlyOwn?: boolean): Promise<Set<string>>;
 	}
 }
 
