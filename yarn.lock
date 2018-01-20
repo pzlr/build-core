@@ -324,9 +324,9 @@ del@^2.0.2:
     pinkie-promise "^2.0.0"
     rimraf "^2.2.8"
 
-doctrine@^2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/doctrine/-/doctrine-2.0.2.tgz#68f96ce8efc56cc42651f1faadb4f175273b0075"
+doctrine@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/doctrine/-/doctrine-2.1.0.tgz#5cd01fc101621b42c4cd7f5d1a66243716d3f39d"
   dependencies:
     esutils "^2.0.2"
 
@@ -345,9 +345,9 @@ eslint-visitor-keys@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz#3f3180fb2e291017716acb4c9d6d5b5c34a6a81d"
 
-eslint@^4.15.0:
-  version "4.15.0"
-  resolved "https://registry.npmjs.org/eslint/-/eslint-4.15.0.tgz#89ab38c12713eec3d13afac14e4a89e75ef08145"
+eslint@^4.16.0:
+  version "4.16.0"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-4.16.0.tgz#934ada9e98715e1d7bbfd6f6f0519ed2fab35cc1"
   dependencies:
     ajv "^5.3.0"
     babel-code-frame "^6.22.0"
@@ -355,7 +355,7 @@ eslint@^4.15.0:
     concat-stream "^1.6.0"
     cross-spawn "^5.1.0"
     debug "^3.1.0"
-    doctrine "^2.0.2"
+    doctrine "^2.1.0"
     eslint-scope "^3.7.1"
     eslint-visitor-keys "^1.0.0"
     espree "^3.5.2"
@@ -629,9 +629,9 @@ isexe@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
 
-joi@^13.1.0:
-  version "13.1.0"
-  resolved "https://registry.npmjs.org/joi/-/joi-13.1.0.tgz#59e7b8714b932a1e342c3583d5841d7169ff1822"
+joi@^13.1.1:
+  version "13.1.1"
+  resolved "https://registry.yarnpkg.com/joi/-/joi-13.1.1.tgz#1f306a5c3ded496da46629915d09e1ae3825185c"
   dependencies:
     hoek "5.x.x"
     isemail "3.x.x"
