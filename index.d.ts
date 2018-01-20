@@ -52,7 +52,7 @@ declare namespace PzlrBuildCore {
 	class Block {
 		static get(name: string): Promise<Block>;
 
-		static getAll(names?: string[]): Promise<Block[]>;
+		static getAll(names?: string[]): Promise<Map<string, Block>>;
 
 		readonly name: string;
 
