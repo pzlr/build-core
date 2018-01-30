@@ -134,20 +134,19 @@ interface BuildConfig {
 		[name: string]: Entry;
 	};
 
-	dependencies: {
-		[name: string]: Set<string>;
-	};
-
-	commons: {
-		[name: string]: Set<string>;
-	};
-
 	filter(cb: (el: Entry, key: string) => any): BuildConfig;
+
+	getUnionEntryPoints({cache}: {cache?: PzlrBuildCore.BlockMap}): Promise<{
+		dependencies: Set<string>;
+		entry: PzlrBuildCore.BlockMap;
+	}>;
 
 	getRuntimeDependencies(): Promise<PzlrBuildCore.RuntimeDependencies>;
 	getRuntimeDependencies({cache}: {cache?: PzlrBuildCore.BlockMap}): Promise<PzlrBuildCore.RuntimeDependencies>;
 }
 
 export const entries: {
+	getCommonName(id: string | number): string;
+
 	getBuildConfig(): Promise<BuildConfig>;
 };
