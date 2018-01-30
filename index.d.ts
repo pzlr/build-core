@@ -115,6 +115,8 @@ export const resolve: {
 	blockSync(name: string, skip: number): {path: string; from: number} | null;
 
 	entry(name?: string): string;
+
+	isNodeModule(url: string): boolean;
 };
 
 export const
