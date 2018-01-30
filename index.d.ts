@@ -31,8 +31,8 @@ declare namespace PzlrBuildCore {
 		readonly type: BlockFullType;
 		readonly parent: string | null;
 		readonly mixin: boolean;
-		readonly dependencies: ReadonlyArray<string>;
-		readonly libs: ReadonlyArray<string>;
+		readonly dependencies: string[];
+		readonly libs: string[];
 
 		constructor(declaration: string | DeclarationObject);
 
@@ -55,8 +55,13 @@ declare namespace PzlrBuildCore {
 		readonly type: BlockFullType;
 		readonly parent: string | null;
 		readonly mixin: boolean;
-		readonly dependencies: ReadonlyArray<string>;
-		readonly libs: ReadonlyArray<string>;
+		readonly dependencies: string[];
+		readonly libs: string[];
+
+		readonly logic: Promise<string | null>;
+		readonly tpl: Promise<string | null>;
+		readonly execTpl: Promise<string | null>;
+		readonly styles: Promise<string[]>;
 
 		constructor(declaration: Declaration);
 
