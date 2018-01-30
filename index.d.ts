@@ -118,9 +118,10 @@ export const
 	block: PzlrBuildCore.Block;
 
 interface Entry {
-	path: string;
-	source: string;
-	parent: string | null;
+	readonly path: string;
+	readonly source: string;
+	readonly parent: string | undefined;
+	readonly parents: Set<string>;
 }
 
 interface BuildConfig {
