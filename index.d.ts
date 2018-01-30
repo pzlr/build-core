@@ -133,11 +133,11 @@ interface BuildConfig {
 	};
 
 	dependencies: {
-		[name: string]: string[];
+		[name: string]: Set<string>;
 	};
 
 	commons: {
-		[name: string]: string[];
+		[name: string]: Set<string>;
 	};
 
 	filter(cb: (el: Entry, key: string) => any): BuildConfig;
