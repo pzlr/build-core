@@ -60,7 +60,7 @@ declare namespace PzlrBuildCore {
 
 		readonly logic: Promise<string | null>;
 		readonly tpl: Promise<string | null>;
-		readonly execTpl: Promise<string | null>;
+		readonly etpl: Promise<string | null>;
 		readonly styles: Promise<string[]>;
 
 		constructor(declaration: Declaration);
