@@ -137,8 +137,8 @@ interface BuildConfig {
 	filter(cb: (el: Entry, key: string) => any): BuildConfig;
 
 	getUnionEntryPoints({cache}: {cache?: PzlrBuildCore.BlockMap}): Promise<{
-		dependencies: Set<string>;
-		entry: PzlrBuildCore.BlockMap;
+		dependencies: Record<string, Set<string>>;
+		entry: Record<string, PzlrBuildCore.BlockMap>;
 	}>;
 
 	getRuntimeDependencies(): Promise<PzlrBuildCore.RuntimeDependencies>;
