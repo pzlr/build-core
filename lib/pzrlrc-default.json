@@ -1,7 +1,8 @@
 {
   "projectType": "ts",
-  "sourceDir": "client",
+  "sourceDir": "src",
   "blockDir": "blocks",
+  "serverDir": "server",
   "entriesDir": "entries",
   "dependencies": [],
   "disclaimer": null

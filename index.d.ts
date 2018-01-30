@@ -77,6 +77,7 @@ declare namespace PzlrBuildCore {
 export const config: {
 	readonly sourceDir: string;
 	readonly blockDir: string;
+	readonly serverDir: string;
 	readonly entriesDir: string;
 	readonly projectType: 'ts' | 'js' | 'static';
 	readonly disclaimer: string | null;
@@ -104,6 +105,7 @@ export const resolve: {
 	readonly sourceDirs: string[];
 	readonly dependencies: string[];
 	readonly rootDependencies: string[];
+	readonly serverDependencies: string[];
 	readonly entryDependencies: string[];
 
 	block(name?: string): Promise<string | null>;
