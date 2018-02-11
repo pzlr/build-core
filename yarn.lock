@@ -103,6 +103,10 @@
   version "8.0.32"
   resolved "https://registry.npmjs.org/@types/node/-/node-8.0.32.tgz#869a716538b6eec65ab3893f183d557be3cda206"
 
+"@types/node@^9.4.5":
+  version "9.4.5"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-9.4.5.tgz#d2a90c634208173d1b1a0a6ba9f1df3de62edcf5"
+
 "@types/through2@^2.0.33":
   version "2.0.33"
   resolved "https://registry.npmjs.org/@types/through2/-/through2-2.0.33.tgz#1ff2e88a100dfb5b140e7bb98791f1194400d131"
@@ -343,9 +347,11 @@ co@^4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/co/-/co-4.6.0.tgz#6ea6bdf3d853ae54ccb8e47bfa0bf3f9031fb184"
 
-collection.js@^6.6.1:
-  version "6.6.1"
-  resolved "https://registry.yarnpkg.com/collection.js/-/collection.js-6.6.1.tgz#0cac0302f2c286a54ed2109ae1a8a651a5f5d958"
+collection.js@^6.6.2:
+  version "6.6.2"
+  resolved "https://registry.yarnpkg.com/collection.js/-/collection.js-6.6.2.tgz#15b96bcaf962a856ff81fd0859289b56c0960bf4"
+  dependencies:
+    "@types/node" "^9.4.5"
 
 color-convert@^1.0.0:
   version "1.9.0"
