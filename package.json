@@ -25,14 +25,14 @@
     "pzlr"
   ],
   "dependencies": {
-    "collection.js": "^6.4.0",
+    "collection.js": "^6.6.1",
     "find-node-modules": "^1.0.4",
     "fs-extra-promise": "^1.0.1",
     "glob": "^7.1.2",
     "glob-promise": "^3.3.0",
     "is-path-inside": "^1.0.1",
-    "joi": "^13.1.1",
-    "sugar": "^2.0.1",
+    "joi": "^13.1.2",
+    "sugar": "^2.0.4",
     "through2": "^2.0.3",
     "vinyl-fs": "^3.0.2"
   },
@@ -43,6 +43,6 @@
     "@types/through2": "^2.0.33",
     "@types/vinyl-fs": "^2.4.8",
     "babel-eslint": "^8.2.1",
-    "eslint": "^4.16.0"
+    "eslint": "^4.17.0"
   }
 }

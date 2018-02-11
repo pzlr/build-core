@@ -343,9 +343,9 @@ co@^4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/co/-/co-4.6.0.tgz#6ea6bdf3d853ae54ccb8e47bfa0bf3f9031fb184"
 
-collection.js@^6.4.0:
-  version "6.4.0"
-  resolved "https://registry.npmjs.org/collection.js/-/collection.js-6.4.0.tgz#f503d80e3af4e0f7dddac8e5e9aa373a6a494c2c"
+collection.js@^6.6.1:
+  version "6.6.1"
+  resolved "https://registry.yarnpkg.com/collection.js/-/collection.js-6.6.1.tgz#0cac0302f2c286a54ed2109ae1a8a651a5f5d958"
 
 color-convert@^1.0.0:
   version "1.9.0"
@@ -456,9 +456,9 @@ eslint-visitor-keys@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz#3f3180fb2e291017716acb4c9d6d5b5c34a6a81d"
 
-eslint@^4.16.0:
-  version "4.16.0"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-4.16.0.tgz#934ada9e98715e1d7bbfd6f6f0519ed2fab35cc1"
+eslint@^4.17.0:
+  version "4.17.0"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-4.17.0.tgz#dc24bb51ede48df629be7031c71d9dc0ee4f3ddf"
   dependencies:
     ajv "^5.3.0"
     babel-code-frame "^6.22.0"
@@ -1002,9 +1002,9 @@ isobject@^2.0.0:
   dependencies:
     isarray "1.0.0"
 
-joi@^13.1.1:
-  version "13.1.1"
-  resolved "https://registry.yarnpkg.com/joi/-/joi-13.1.1.tgz#1f306a5c3ded496da46629915d09e1ae3825185c"
+joi@^13.1.2:
+  version "13.1.2"
+  resolved "https://registry.yarnpkg.com/joi/-/joi-13.1.2.tgz#b2db260323cc7f919fafa51e09e2275bd089a97e"
   dependencies:
     hoek "5.x.x"
     isemail "3.x.x"
@@ -1482,7 +1482,7 @@ sugar-core@^2.0.0:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/sugar-core/-/sugar-core-2.0.4.tgz#9db0730e6c47eb7d28184a79c4ab18b2b7946ca0"
 
-sugar@^2.0.1:
+sugar@^2.0.4:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/sugar/-/sugar-2.0.4.tgz#79a6fa4dabc587fb855a52ee7176dd042bf757b0"
   dependencies:
