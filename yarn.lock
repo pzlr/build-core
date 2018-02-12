@@ -341,9 +341,9 @@ co@^4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/co/-/co-4.6.0.tgz#6ea6bdf3d853ae54ccb8e47bfa0bf3f9031fb184"
 
-collection.js@^6.6.6:
-  version "6.6.6"
-  resolved "https://registry.npmjs.org/collection.js/-/collection.js-6.6.6.tgz#bf1c76a3700d6a092a2a49b08a7441176273a5d9"
+collection.js@^6.6.7:
+  version "6.6.7"
+  resolved "https://registry.npmjs.org/collection.js/-/collection.js-6.6.7.tgz#2835b43276e33caf75d895aaa934f358a390a7e9"
   dependencies:
     "@types/node" "^9.4.5"
 
