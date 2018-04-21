@@ -4,7 +4,7 @@
   "homepage": "https://github.com/pzlr/build-core#readme",
   "main": "index.js",
   "typings": "index.d.ts",
-  "version": "2.7.2",
+  "version": "2.7.3",
   "license": "MIT",
   "author": {
     "name": "Konstantin Kutsyllo",
@@ -31,7 +31,7 @@
     "glob": "^7.1.2",
     "glob-promise": "^3.4.0",
     "is-path-inside": "^2.0.0",
-    "joi": "^13.1.2",
+    "joi": "^13.2.0",
     "sugar": "^2.0.4",
     "vinyl-fs": "^3.0.2"
   },
@@ -40,7 +40,7 @@
     "@types/glob": "^5.0.35",
     "@types/joi": "^13.0.7",
     "@types/vinyl-fs": "^2.4.8",
-    "babel-eslint": "^8.2.2",
+    "babel-eslint": "^8.2.3",
     "eslint": "^4.19.1"
   }
 }
