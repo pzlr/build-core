@@ -80,6 +80,8 @@ declare namespace PzlrBuildCore {
 }
 
 export const config: {
+	readonly super: string;
+	readonly superRgxp: RegExp;
 	readonly sourceDir: string;
 	readonly blockDir: string;
 	readonly serverDir: string;

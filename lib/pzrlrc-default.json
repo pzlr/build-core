@@ -1,4 +1,5 @@
 {
+  "super": "@super",
   "projectType": "ts",
   "sourceDir": "src",
   "blockDir": "blocks",
