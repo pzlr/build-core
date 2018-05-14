@@ -5,6 +5,7 @@
   "blockDir": "blocks",
   "serverDir": "server",
   "entriesDir": "entries",
+  "assets": {"dir": "assets", "sprite": "sprite"},
   "dependencies": [],
   "disclaimer": null
 }
