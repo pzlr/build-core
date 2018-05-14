@@ -86,7 +86,7 @@ export const config: {
 	readonly blockDir: string;
 	readonly serverDir: string;
 	readonly entriesDir: string;
-	readonly assets: Readonly<{dir: string; sprite: string; [key: string]: string}>;
+	readonly assets: Readonly<{dir: string; [key: string]: any}>;
 	readonly projectType: 'ts' | 'js' | 'static';
 	readonly disclaimer: string | null;
 	readonly dependencies: string[] | {src: string; exclude: string[]};
