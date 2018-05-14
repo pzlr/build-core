@@ -86,9 +86,9 @@
   version "1.1.0"
   resolved "https://registry.npmjs.org/@types/events/-/events-1.1.0.tgz#93b1be91f63c184450385272c47b6496fd028e02"
 
-"@types/fs-extra-promise@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@types/fs-extra-promise/-/fs-extra-promise-1.0.4.tgz#305a42c3fa6e60f6f1e9147e3fc4e233cb0aae93"
+"@types/fs-extra-promise@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.npmjs.org/@types/fs-extra-promise/-/fs-extra-promise-1.0.5.tgz#fe78605dc3f2f740933fd3320d33a1841a245ef9"
   dependencies:
     "@types/bluebird" "*"
     "@types/fs-extra" "^4"
@@ -115,9 +115,9 @@
     "@types/minimatch" "*"
     "@types/node" "*"
 
-"@types/joi@^13.0.7":
-  version "13.0.7"
-  resolved "https://registry.npmjs.org/@types/joi/-/joi-13.0.7.tgz#89cd7092fc24160b9d59597270cd0d3620e709d8"
+"@types/joi@^13.0.8":
+  version "13.0.8"
+  resolved "https://registry.npmjs.org/@types/joi/-/joi-13.0.8.tgz#224d5da224036f0c15b35e6980ba9de63b8ea374"
 
 "@types/minimatch@*":
   version "3.0.3"
@@ -127,9 +127,9 @@
   version "8.0.32"
   resolved "https://registry.npmjs.org/@types/node/-/node-8.0.32.tgz#869a716538b6eec65ab3893f183d557be3cda206"
 
-"@types/node@^9.6.0":
-  version "9.6.1"
-  resolved "https://registry.npmjs.org/@types/node/-/node-9.6.1.tgz#e2d374ef15b315b48e7efc308fa1a7cd51faa06c"
+"@types/node@^9.6.9":
+  version "9.6.15"
+  resolved "https://registry.npmjs.org/@types/node/-/node-9.6.15.tgz#8a5a313ea0a43a95277235841be5d3f5fb3dfeda"
 
 "@types/vinyl-fs@^2.4.8":
   version "2.4.8"
@@ -367,11 +367,11 @@ co@^4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/co/-/co-4.6.0.tgz#6ea6bdf3d853ae54ccb8e47bfa0bf3f9031fb184"
 
-collection.js@^6.6.18:
-  version "6.6.18"
-  resolved "https://registry.npmjs.org/collection.js/-/collection.js-6.6.18.tgz#cb27c72f15da2863fd1f058f6965a4aa5bf5211a"
+collection.js@^6.6.22:
+  version "6.6.22"
+  resolved "https://registry.npmjs.org/collection.js/-/collection.js-6.6.22.tgz#35e63228a040d4907635e790406ae576dda2bb6d"
   dependencies:
-    "@types/node" "^9.6.0"
+    "@types/node" "^9.6.9"
 
 color-convert@^1.0.0:
   version "1.9.0"
@@ -1640,9 +1640,9 @@ value-or-function@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/value-or-function/-/value-or-function-3.0.0.tgz#1c243a50b595c1be54a754bfece8563b9ff8d813"
 
-vinyl-fs@^3.0.2:
-  version "3.0.2"
-  resolved "https://registry.npmjs.org/vinyl-fs/-/vinyl-fs-3.0.2.tgz#1b86258844383f57581fcaac081fe09ef6d6d752"
+vinyl-fs@^3.0.3:
+  version "3.0.3"
+  resolved "https://registry.npmjs.org/vinyl-fs/-/vinyl-fs-3.0.3.tgz#c85849405f67428feabbbd5c5dbdd64f47d31bc7"
   dependencies:
     fs-mkdirp-stream "^1.0.0"
     glob-stream "^6.1.0"
