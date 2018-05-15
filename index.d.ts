@@ -117,10 +117,10 @@ export const resolve: {
 	readonly entryDependencies: string[];
 
 	block(name?: string): Promise<string | null>;
-	block(name: string, skip: number): Promise<{path: string; from: number} | null>;
+	block(name: string, skip: number | string): Promise<{path: string; from: number} | null>;
 
 	blockSync(name?: string): string | null;
-	blockSync(name: string, skip: number): {path: string; from: number} | null;
+	blockSync(name: string, skip: number | string): {path: string; from: number} | null;
 
 	entry(name?: string): string;
 
