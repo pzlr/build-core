@@ -1,3 +1,5 @@
+/// <reference lib="es2015"/>
+
 declare namespace PzlrBuildCore {
 	interface DeclarationObject {
 		name: string;
@@ -48,7 +50,7 @@ declare namespace PzlrBuildCore {
 	}
 
 	class Block {
-		static get(name: string): Promise<Block>;
+		static get(folder: string, file: string): Promise<Block>;
 		static getAll(names?: string[]): Promise<BlockMap>;
 
 		readonly name: string;
