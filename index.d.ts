@@ -115,10 +115,10 @@ export const resolve: {
 	readonly depMap: Record<string, {
 		src: string;
 		exclude: Set<string>;
-		libPath: string;
-		path: string;
-		serverPath: string;
-		rootPath: string;
+		libDir: string;
+		dir: string;
+		serverDir: string;
+		rootDir: string;
 		config: typeof config;
 	}>;
 
