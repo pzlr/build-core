@@ -90,6 +90,7 @@ export const config: {
 	readonly entriesDir: string;
 	readonly assets: Readonly<{dir: string; [key: string]: any}>;
 	readonly projectType: 'ts' | 'js' | 'static';
+	readonly projectName: string;
 	readonly disclaimer: string | null;
 	readonly dependencies: string[] | {src: string; exclude: string[]};
 };
