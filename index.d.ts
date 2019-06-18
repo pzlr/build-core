@@ -111,7 +111,7 @@ export const declaration: PzlrBuildCore.Declaration;
 export const resolve: {
 	readonly cwd: string;
 	readonly lib: string;
-	readonly depMap: Record<string, {src: string; exclude: Set<string>; config: typeof config}>;
+	readonly depMap: Record<string, {src: string; path: string; exclude: Set<string>; config: typeof config}>;
 	readonly sourceDir: string;
 	readonly sourceDirs: string[];
 	readonly dependencies: string[];
