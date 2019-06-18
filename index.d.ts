@@ -116,9 +116,9 @@ export const resolve: {
 		src: string;
 		exclude: Set<string>;
 		libPath: string;
-		blocksPath: string;
-		serverDepsPath: string;
-		rootDepsPath: string;
+		path: string;
+		serverPath: string;
+		rootPath: string;
 		config: typeof config;
 	}>;
 
