@@ -79,6 +79,19 @@ declare namespace PzlrBuildCore {
 		getRuntimeDependencies(): Promise<RuntimeDependencies>;
 		getRuntimeDependencies({cache}: {cache?: BlockMap}): Promise<RuntimeDependencies>;
 	}
+
+	interface ProjectOptions {
+		src: string;
+		dir: string;
+		serverDir: string;
+		rootDir: string;
+		config: typeof config;
+	}
+
+	interface DependencyProjectOptions extends ProjectOptions {
+		exclude: Set<string>;
+		libDir: string;
+	}
 }
 
 export const config: {
@@ -111,7 +124,9 @@ export const declaration: PzlrBuildCore.Declaration;
 export const resolve: {
 	readonly cwd: string;
 	readonly lib: string;
-	readonly depMap: Record<string, {src: string; exclude: Set<string>; config: typeof config}>;
+
+	readonly depMap: Record<string, PzlrBuildCore.DependencyProjectOptions>;
+
 	readonly sourceDir: string;
 	readonly sourceDirs: string[];
 	readonly dependencies: string[];
@@ -124,6 +139,7 @@ export const resolve: {
 
 	blockSync(name?: string): string | null;
 	blockSync(name: string, skip: number | string): {path: string; from: number} | null;
+	getLayerByPath(url: string): PzlrBuildCore.ProjectOptions | PzlrBuildCore.DependencyProjectOptions | undefined;
 
 	entry(name?: string): string;
 
