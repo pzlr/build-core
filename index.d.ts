@@ -106,6 +106,7 @@ export const config: {
 	readonly projectName: string;
 	readonly disclaimer: string | null;
 	readonly dependencies: string[] | {src: string; exclude: string[]};
+	readonly designSystem?: string;
 };
 
 export const validators: {
