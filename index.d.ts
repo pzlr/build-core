@@ -24,6 +24,9 @@ declare namespace PzlrBuildCore {
 	type BlockTypeList = ['i', 'b', 'p', 'g', 'v'];
 	type BlockFullType = 'interface' | 'block' | 'page' | 'global' | 'virtual';
 
+	type Nullable<T> = T | null | undefined;
+	type CanArray<T> = T | T[];
+
 	class Declaration {
 		static readonly blockTypes: BlockTypes;
 		static readonly blockTypeList: BlockTypeList;
@@ -31,10 +34,10 @@ declare namespace PzlrBuildCore {
 
 		readonly name: string;
 		readonly type: BlockFullType;
-		readonly parent: string | null;
+		readonly parent: Nullable<string>;
 		readonly mixin: boolean;
-		readonly dependencies: string[];
-		readonly libs: string[];
+		readonly dependencies: CanArray<Nullable<string>>[];
+		readonly libs: CanArray<Nullable<string>>[];
 
 		constructor(declaration: string | DeclarationObject);
 
