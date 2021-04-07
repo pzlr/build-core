@@ -31,6 +31,7 @@
     "fs-extra-promise": "^1.0.1",
     "glob": "^7.1.6",
     "glob-promise": "^3.4.0",
+    "hasha": "^5.2.2",
     "is-path-inside": "^3.0.3",
     "sugar": "^2.0.6",
     "upath": "^1.2.0",
