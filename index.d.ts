@@ -53,6 +53,7 @@ declare namespace PzlrBuildCore {
 	}
 
 	class Block {
+		static setObjToHash(obj: object): void;
 		static get(folder: string, file: string): Promise<Block>;
 		static getAll(names?: string[]): Promise<BlockMap>;
 
