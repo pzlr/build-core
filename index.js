@@ -6,3 +6,4 @@ exports.declaration = require('./lib/declaration');
 exports.resolve = require('./lib/resolve');
 exports.block = require('./lib/block');
 exports.entries = require('./lib/entries');
+exports.helpers = require('./lib/helpers');

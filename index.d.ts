@@ -53,6 +53,7 @@ declare namespace PzlrBuildCore {
 	}
 
 	class Block {
+		static setObjToHash(obj: object): void;
 		static get(folder: string, file: string): Promise<Block>;
 		static getAll(names?: string[]): Promise<BlockMap>;
 
@@ -97,6 +98,12 @@ declare namespace PzlrBuildCore {
 	}
 }
 
+export const helpers: {
+	createSerializableMap<K, V = unknown>(data: [K, V][]): Map<K, V>;
+	createSerializableSet<T>(data: T[]): Set<T>;
+	jsonReviver(key: string, value: unknown): unknown;
+}
+
 export const config: {
 	readonly super: string;
 	readonly superRgxp: RegExp;
@@ -108,7 +115,7 @@ export const config: {
 	readonly projectType: 'ts' | 'js' | 'static';
 	readonly projectName: string;
 	readonly disclaimer: string | null;
-	readonly dependencies: string[] | {src: string; exclude: string[]};
+	readonly dependencies: string[] | {src: string; exclude: string[]}[];
 	readonly designSystem?: string;
 };
 

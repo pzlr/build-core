@@ -4,7 +4,7 @@
   "homepage": "https://github.com/pzlr/build-core#readme",
   "main": "index.js",
   "typings": "index.d.ts",
-  "version": "2.10.3",
+  "version": "2.11.0",
   "license": "MIT",
   "author": {
     "name": "Konstantin Kutsyllo",
@@ -31,7 +31,9 @@
     "fs-extra-promise": "^1.0.1",
     "glob": "^7.1.6",
     "glob-promise": "^3.4.0",
+    "hash-files": "^1.1.1",
     "is-path-inside": "^3.0.3",
+    "node-object-hash": "^2.3.1",
     "sugar": "^2.0.6",
     "upath": "^1.2.0",
     "vinyl-fs": "^3.0.3"
