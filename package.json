@@ -4,7 +4,7 @@
   "homepage": "https://github.com/pzlr/build-core#readme",
   "main": "index.js",
   "typings": "index.d.ts",
-  "version": "2.12.5",
+  "version": "2.13.0",
   "license": "MIT",
   "author": {
     "name": "Konstantin Kutsyllo",
