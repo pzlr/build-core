@@ -4,7 +4,7 @@
   "homepage": "https://github.com/pzlr/build-core#readme",
   "main": "index.js",
   "typings": "index.d.ts",
-  "version": "2.13.0",
+  "version": "2.14.0",
   "license": "MIT",
   "author": {
     "name": "Konstantin Kutsyllo",
@@ -25,25 +25,25 @@
     "pzlr"
   ],
   "dependencies": {
-    "@hapi/joi": "^17.1.1",
-    "collection.js": "^6.7.11",
-    "find-node-modules": "^2.1.2",
-    "fs-extra-promise": "^1.0.1",
-    "glob": "^7.2.0",
-    "glob-promise": "^3.4.0",
-    "hash-files": "^1.1.1",
-    "is-path-inside": "^3.0.3",
-    "monic": "^2.6.1",
-    "node-object-hash": "^2.3.10",
-    "sugar": "^2.0.6",
-    "upath": "^1.2.0",
-    "vinyl-fs": "^3.0.3"
+    "@hapi/joi": "17.1.1",
+    "collection.js": "6.7.11",
+    "find-node-modules": "2.1.2",
+    "fs-extra-promise": "1.0.1",
+    "glob": "7.2.0",
+    "glob-promise": "3.4.0",
+    "hash-files": "1.1.1",
+    "is-path-inside": "3.0.3",
+    "monic": "2.6.1",
+    "node-object-hash": "2.3.10",
+    "sugar": "2.0.6",
+    "upath": "1.2.0",
+    "vinyl-fs": "3.0.3"
   },
   "devDependencies": {
-    "@types/fs-extra-promise": "^1.0.10",
-    "@types/glob": "^7.1.4",
-    "@types/vinyl-fs": "^2.4.12",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^6.8.0"
+    "@types/fs-extra-promise": "1.0.10",
+    "@types/glob": "7.2.0",
+    "@types/vinyl-fs": "2.4.12",
+    "babel-eslint": "10.1.0",
+    "eslint": "6.8.0"
   }
 }
