@@ -8,3 +8,4 @@ exports.block = require('./lib/block');
 exports.entries = require('./lib/entries');
 exports.helpers = require('./lib/helpers');
 exports.graphHash = require('./lib/graph-hash');
+exports.lockFile = require('./lib/lock-file');
