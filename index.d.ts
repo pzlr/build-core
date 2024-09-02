@@ -198,7 +198,7 @@ export const entries: {
 };
 
 export const lockFile: {
-	readLockFile(lockFile: string, opts: {BlockPrototype: any}): {hash: string; data:  unknown} | undefined;
+	readLockFile(lockFile: string, opts: {BlockPrototype: any}): {hash: string; data: unknown} | undefined;
 }
 
 export const graphHash: {
