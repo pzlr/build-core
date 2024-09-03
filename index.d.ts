@@ -98,8 +98,9 @@ declare namespace PzlrBuildCore {
 	}
 
 	interface CalculateGraphHashOptions {
-		cwd: string;
+		projectCWD: string;
 		sourceDirs: string[];
+		objToHash: any;
 		entryDir?: string;
 		ignoreDirs?: string[];
 		lockPrefix?: string;
