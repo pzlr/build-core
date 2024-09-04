@@ -96,6 +96,15 @@ declare namespace PzlrBuildCore {
 		exclude: Set<string>;
 		libDir: string;
 	}
+
+	interface CalculateGraphHashOptions {
+		projectCWD: string;
+		sourceDirs: string[];
+		objToHash: any;
+		entryDir?: string;
+		ignoreDirs?: string[];
+		lockPrefix?: string;
+	}
 }
 
 export const helpers: {
@@ -188,3 +197,12 @@ export const entries: {
 
 	getBuildConfig(): Promise<BuildConfig>;
 };
+
+export const lockFile: {
+	readLockFile(lockFile: string, opts: {BlockPrototype: any}): {hash: string; data: unknown} | undefined;
+}
+
+export const graphHash: {
+	calculateGraphHash(ops: PzlrBuildCore.CalculateGraphHashOptions): string;
+	readGraphHashFromLockFile(lockFile: string): string | undefined;
+}
